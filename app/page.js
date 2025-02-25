@@ -3,7 +3,7 @@ import About from "@/components/about";
 import Education from "@/components/education/education";
 import Experiences from "@/components/experiences/experiences";
 import Header from "@/components/header";
-import Volunteering from "@/components/volunteering/volunteering";
+// import Volunteering from "@/components/volunteering/volunteering";
 import Projects from '@/components/projects/projects';
 import Credits from '@/components/credits';
 import {promises as fs} from 'fs';
@@ -20,9 +20,9 @@ export default async function Home() {
           <About data={data.general}></About>
           <Experiences data={data.experiences}></Experiences>
           <Education data={data.education}></Education>
-          <Volunteering data={data.volunteering}></Volunteering>
+          {/* <Volunteering data={data.volunteering}></Volunteering> */}
           <Projects data={data.projects}></Projects>
-          <Credits data={data.general}></Credits>
+          {/* <Credits data={data.general}></Credits> */}
         </div>
       </div>
     </main>
