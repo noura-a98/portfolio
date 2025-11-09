@@ -19,16 +19,17 @@
       "endDate": "02/2025",
       "description": "I Developed and integrated multi-faceted applications to enhance business operations.",
       "skills": [
-        "PHP",
-        "Laravel",
-        "JavaScript",
-        "MySql",
         "React",
         "NodeJs",
         "mongoDB",
-        "React",
+        "AWS",
         "Docker",
-        "AWS"
+        "Python",
+        "PHP",
+        "MySql",
+        "MongoDB",
+        "Laravel",
+        "JavaScript"
       ]
     }
   ],
@@ -43,6 +44,28 @@
       "description": "Studied software development, algorithms, and system design."
     }
   ],
+"certificates": [
+    {
+        "subject": "AWS Cloud Practitioner",
+        "issuer": "Amazon Web Services",
+        "date": "2025",
+        "description": "Completed AWS Cloud Practitioner certification."
+    },
+    {
+        "subject": "JavaScript Certification",
+        "issuer": "Udemy",
+        "date": "2024",
+        "description": "Completed JavaScript certification course."
+    },
+    {
+        "subject": "Node.js Certification",
+        "issuer": "Udemy",
+        "date": "2024",
+        "description": "Completed Node.js certification course."
+    }
+],
+
+
   "Skills": [
     {
       "title": "FullStack Developer",
@@ -57,19 +80,23 @@
   ],
 
   "projects": [
-    {
-      "name": "Staff Leave Portal",
-      "framework": "PHP",
-      "description": "A full-stack web application that allows staff to request leaves from management and admins digitally, replacing traditional paperwork.",
-      "href": "https://github.com/noura-a98/Leave-of-absence",
-      "stars": "0"
+     {
+      "name": "Natours",
+      "framework": "Node.js",
+      "description": "Natours is a modern, full-stack web application for booking and managing tours..",
+      "href": "https://github.com/noura-a98/Natours"
     },
     {
-      "name": "Research Management System",
-      "framework": "PHP",
-      "description": "A platform for academic staff to upload and manage their research papers for awards and recognition.",
-      "href": "https://github.com/noura-a98/RMS",
-      "stars": "2,712"
+      "name": "My Store",
+      "framework": "React,Node.js",
+      "description": "A full-stack web application that allows staff to request leaves from management and admins digitally, replacing traditional paperwork.",
+      "href": "https://github.com/noura-a98/my-store"
+          },
+    {
+      "name": "Movie App",
+      "framework": "Laravel",
+      "description": "Movie App is a web application built with Laravel that allows users to browse and explore movies dynamically by fetching data from the TMDB Movie API. This project demonstrates backend development with Laravel, API integration, and dynamic content rendering.",
+      "href": "https://github.com/noura-a98/movie-app"
     }
   ]
 }

@@ -6,6 +6,7 @@ import Header from "@/components/header";
 // import Volunteering from "@/components/volunteering/volunteering";
 import Projects from '@/components/projects/projects';
 import Credits from '@/components/credits';
+import Certificate from '@/components/certificates/certificate'
 import {promises as fs} from 'fs';
 
 export default async function Home() {
@@ -20,6 +21,7 @@ export default async function Home() {
           <About data={data.general}></About>
           <Experiences data={data.experiences}></Experiences>
           <Education data={data.education}></Education>
+          <Certificate data={data.certificates}></Certificate>
           {/* <Volunteering data={data.volunteering}></Volunteering> */}
           <Projects data={data.projects}></Projects>
           {/* <Credits data={data.general}></Credits> */}

@@ -30,13 +30,14 @@ const Navigation = () => {
 
     return (
         <div id='navigation' className='flex flex-col py-10 font-medium tracking-widest'>
-            <NavItem active={activeSection === 'about' ? true : false} href='#about' num='01' name="ABOUT"></NavItem>
-            <NavItem active={activeSection === 'experiences' ? true : false} href='#experiences' num='02' name="EXPERIENCES"></NavItem>
-            <NavItem active={activeSection === 'education' ? true : false} href='#education' num='03' name="EDUCATION"></NavItem>
-            {/* <NavItem active={activeSection === 'volunteering' ? true : false} href='#volunteering' num='04' name="VOLUNTEERING"></NavItem> */}
-            <NavItem active={(activeSection === 'projects') || (activeSection === 'credits') ? true : false} href='#projects' num='04' name="PROJECTS"></NavItem>
+            <NavItem active={activeSection === 'about'} href='#about' num='01' name="ABOUT" />
+            <NavItem active={activeSection === 'experiences'} href='#experiences' num='02' name="EXPERIENCES" />
+            <NavItem active={activeSection === 'education'} href='#education' num='03' name="EDUCATION" />
+            {/* <NavItem active={activeSection === 'volunteering'} href='#volunteering' num='04' name="VOLUNTEERING" /> */}
+            <NavItem active={activeSection === 'certificates'} href='#certificates' num='04' name="CERTIFICATES" />
+            <NavItem active={(activeSection === 'projects') || (activeSection === 'credits')} href='#projects' num='05' name="PROJECTS" />
         </div>
     )
 }
 
-export default Navigation
+export default Navigation;
